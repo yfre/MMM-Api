@@ -33,7 +33,8 @@ module.exports = NodeHelper.create({
 			function(f) {
 				return f !== "node_modules"
 					&& f !== "README.md"
-					&& f !== "defaultmodules.js"
+	    				&& f !== "utils.js"
+	    				&& f !== "defaultmodules.js"
 			}
 		);
 
